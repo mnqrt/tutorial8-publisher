@@ -17,8 +17,12 @@ Dengan demikian, baik Publisher maupun Subscriber akan berinteraksi dengan messa
 # Running RabbitMQ as message broker.
 ![Alt text](image/ss1.png)
 
-# “Sending and processing event.
+# Sending and processing event.
 ![Alt text](image/ss2.png)
 ![Alt text](image/ss3.png)
 ![Alt text](image/ss4.png)
- Publisher mengirim pesan ke RabbitMQ, dan Subscriber mengambil dan memproses pesan-pesan tersebut, sebagaimana yang terlihat di konsol. Ini menunjukkan bagaimana Publisher dan Subscriber berinteraksi menggunakan RabbitMQ sebagai perantara pesan dengan fungsionalitas dasar.
+Publisher mengirim pesan ke RabbitMQ, dan Subscriber mengambil dan memproses pesan-pesan tersebut, sebagaimana yang terlihat di konsol. Ini menunjukkan bagaimana Publisher dan Subscriber berinteraksi menggunakan RabbitMQ sebagai perantara pesan dengan fungsionalitas dasar.
+
+# Monitoring chart based on publisher.
+![Alt text](image/ss5.png)
+Dengan memperhatikan peningkatan pada grafik RabbitMQ saat melakukan operasi penerbitan berulang, kita dapat secara visual melihat bagaimana aktivitas penerbitan memengaruhi antrian pesan di RabbitMQ. Ini memberikan gambaran yang jelas tentang bagaimana pesan antri dan diproses menggunakan RabbitMQ, yang sangat berguna untuk memahami mekanisme antrian pesan dan pemrosesan dalam konteks RabbitMQ.
