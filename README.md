@@ -13,3 +13,6 @@ Rincian dari URL tersebut:
 - `5672` adalah nomor port di mana message broker mendengarkan koneksi AMQP (5672 adalah port default untuk RabbitMQ).
 
 Dengan demikian, baik Publisher maupun Subscriber akan berinteraksi dengan message broker/server yang sama, kemungkinan besar menggunakan antrian pesan yang sama untuk mengirim dan menerima pesan.
+
+# Running RabbitMQ as message broker.
+![Alt text](image/ss1.png)
